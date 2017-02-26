@@ -7,6 +7,10 @@
 -- these lines here.
 
 -- creating player table
+DROP DATABASE IF EXISTS tournament;
+CREATE DATABASE tournament;
+\c tournament;
+
 CREATE TABLE IF NOT EXISTS player (
     id serial PRIMARY KEY,
     name text
@@ -14,6 +18,7 @@ CREATE TABLE IF NOT EXISTS player (
 
 -- creating match table
 CREATE TABLE IF NOT EXISTS match (
+    match_id serial PRIMARY KEY,
     player1 serial REFERENCES player(id),
     player2 serial REFERENCES player(id),
     result serial
