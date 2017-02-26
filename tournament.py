@@ -24,7 +24,7 @@ def deleteMatches():
     db, cursor = connect()
 
 
-    cursor.execute("DELETE FROM match;")
+    cursor.execute("TRUNCATE TABLE match;")
     db.commit()
     finishExecuting(db, cursor)
 
@@ -32,7 +32,7 @@ def deletePlayers():
     """Remove all the player records from the database."""
     db, cursor = connect()
 
-    cursor.execute("DELETE FROM player;")
+    cursor.execute("TRUNCATE TABLE player CASCADE;")
     db.commit()
     finishExecuting(db, cursor)
 

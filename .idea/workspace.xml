@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff8a846-b028-4dbd-bddb-0bc21fbdb12e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament.py" afterPath="$PROJECT_DIR$/tournament.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament.sql" afterPath="$PROJECT_DIR$/tournament.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,16 +20,14 @@
       <file leaf-file-name="tournament.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="94" column="56" lean-forward="false" selection-start-line="94" selection-start-column="56" selection-end-line="94" selection-end-column="56" />
+            <state relative-caret-position="510">
+              <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
-                <marker date="1488077577000" expanded="true" signature="605:622" ph="DELETE FROM " />
-                <marker date="1488077577000" expanded="true" signature="803:821" ph="DELETE FROM " />
-                <marker date="1488077577000" expanded="true" signature="1005:1041" ph="SELECT count... player" />
-                <marker date="1488077577000" expanded="true" signature="1443:1479" ph="INSERT INTO player... " />
-                <marker date="1488077577000" expanded="true" signature="2194:2582" ph="SELECT playe... player" />
-                <marker date="1488077577000" expanded="true" signature="2380:2491" ph="select id, c... player" />
-                <marker date="1488077577000" expanded="true" signature="2945:3008" ph="INSERT INTO match... " />
+                <marker date="1488077806000" expanded="true" signature="1019:1055" ph="SELECT count... player" />
+                <marker date="1488077806000" expanded="true" signature="1457:1493" ph="INSERT INTO player... " />
+                <marker date="1488077806000" expanded="true" signature="2208:2596" ph="SELECT playe... player" />
+                <marker date="1488077806000" expanded="true" signature="2394:2505" ph="select id, c... player" />
+                <marker date="1488077806000" expanded="true" signature="2959:3022" ph="INSERT INTO match... " />
               </folding>
             </state>
           </provider>
@@ -394,13 +390,11 @@
         <state relative-caret-position="1995">
           <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
-            <marker date="1488077577000" expanded="true" signature="605:622" ph="DELETE FROM " />
-            <marker date="1488077577000" expanded="true" signature="803:821" ph="DELETE FROM " />
-            <marker date="1488077577000" expanded="true" signature="1005:1041" ph="SELECT count... player" />
-            <marker date="1488077577000" expanded="true" signature="1443:1479" ph="INSERT INTO player... " />
-            <marker date="1488077577000" expanded="true" signature="2194:2582" ph="SELECT playe... player" />
-            <marker date="1488077577000" expanded="true" signature="2380:2491" ph="select id, c... player" />
-            <marker date="1488077577000" expanded="true" signature="2945:3008" ph="INSERT INTO match... " />
+            <marker date="1488077806000" expanded="true" signature="1019:1055" ph="SELECT count... player" />
+            <marker date="1488077806000" expanded="true" signature="1457:1493" ph="INSERT INTO player... " />
+            <marker date="1488077806000" expanded="true" signature="2208:2596" ph="SELECT playe... player" />
+            <marker date="1488077806000" expanded="true" signature="2394:2505" ph="select id, c... player" />
+            <marker date="1488077806000" expanded="true" signature="2959:3022" ph="INSERT INTO match... " />
           </folding>
         </state>
       </provider>
@@ -471,16 +465,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="94" column="56" lean-forward="false" selection-start-line="94" selection-start-column="56" selection-end-line="94" selection-end-column="56" />
+        <state relative-caret-position="510">
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding>
-            <marker date="1488077577000" expanded="true" signature="605:622" ph="DELETE FROM " />
-            <marker date="1488077577000" expanded="true" signature="803:821" ph="DELETE FROM " />
-            <marker date="1488077577000" expanded="true" signature="1005:1041" ph="SELECT count... player" />
-            <marker date="1488077577000" expanded="true" signature="1443:1479" ph="INSERT INTO player... " />
-            <marker date="1488077577000" expanded="true" signature="2194:2582" ph="SELECT playe... player" />
-            <marker date="1488077577000" expanded="true" signature="2380:2491" ph="select id, c... player" />
-            <marker date="1488077577000" expanded="true" signature="2945:3008" ph="INSERT INTO match... " />
+            <marker date="1488077806000" expanded="true" signature="1019:1055" ph="SELECT count... player" />
+            <marker date="1488077806000" expanded="true" signature="1457:1493" ph="INSERT INTO player... " />
+            <marker date="1488077806000" expanded="true" signature="2208:2596" ph="SELECT playe... player" />
+            <marker date="1488077806000" expanded="true" signature="2394:2505" ph="select id, c... player" />
+            <marker date="1488077806000" expanded="true" signature="2959:3022" ph="INSERT INTO match... " />
           </folding>
         </state>
       </provider>
