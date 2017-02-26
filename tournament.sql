@@ -6,27 +6,28 @@
 -- You can write comments in this file by starting them with two dashes, like
 -- these lines here.
 
--- creating player table
+-- creating tournament database, if it exists, drop it and create a new table
 DROP DATABASE IF EXISTS tournament;
 CREATE DATABASE tournament;
 \c tournament;
 
+-- Create player table on tournament with id as Primary Key
 CREATE TABLE IF NOT EXISTS player (
     id serial PRIMARY KEY,
     name text
 );
 
--- creating match table
+-- creating match table with match_id as primary key and winner/loser as foreign key
 CREATE TABLE IF NOT EXISTS match (
     match_id serial PRIMARY KEY,
-    player1 serial REFERENCES player(id),
-    player2 serial REFERENCES player(id),
-    result serial
+    winner serial REFERENCES player(id) ON DELETE CASCADE ,
+    loser serial REFERENCES player(id) ON DELETE CASCADE ,
+    CHECK (winner <> loser)
 );
 
 -- view to get players list and their winning records
 CREATE VIEW winner_view AS
-    SELECT player.id, name , count(match.result) as wins, count(total.id) as matches
-    from player LEFT JOIN match on player.id = match.result
-    LEFT JOIN (select id, count(*) from player, match WHERE player.id = match.player1 or player.id = match.player2 group by id) as total
+    SELECT player.id, name , count(match.winner) as wins, count(total.id) as matches
+    from player LEFT JOIN match on player.id = match.winner
+    LEFT JOIN (select id, count(*) from player, match WHERE player.id = match.winner or player.id = match.loser group by id) as total
     ON total.id = player.id GROUP BY player.id ORDER BY wins desc;
